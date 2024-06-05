@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "stream-archiver"
+version = "0.1.0"
+description = ""
+authors = ["Jake Wood <hello@jakewood.org>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+earhorn = "^0.20.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
