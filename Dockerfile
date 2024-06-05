@@ -1,3 +1,3 @@
 FROM ghcr.io/jooola/earhorn
 
-RUN apk update && apk add ffmpeg
+RUN sudo apk update && sudo apk add ffmpeg
