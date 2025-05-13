@@ -60,9 +60,7 @@ resource "azurerm_container_app" "example" {
           "--stream-url",
           container.value.url,
           "--archive-path=/mnt/audio/${container.key}",
-          "--archive-segment-format",
-          "mp3",
-          "--archive-copy-stream",
+          # "--archive-copy-stream",
           "--listen-port",
           container.value.port
         ]
